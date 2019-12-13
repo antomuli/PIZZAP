@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,114 @@
   <title>PIZZAP</title>
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="icon" href="images/favicon.jpeg" type="image">
+  <div class="jumbotron">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"> <img src="images/favicon.jpeg" width="50px"></a>    
+          
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#HOME">HOME</a>
+              </li>
+              <br> <br>
+              <li class="nav-item active">
+                <a class="nav-link" href="#About">ABOUT</a>
+              </li>
+              <br> <br>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="#Contact">CONTACT</a>
+              </li>
+          
+        </nav>
+  </div>
 </head>
+
 <body>
-  
+<div class="container">
+  <div class="cover">
+      <div class="row">
+          <div class="col-md-12">
+            <h5>I have never a Pizza Like you before</h5>
+          </div>
+          <div class="col-md-2">
+              <div class="form-group">
+                  <label for="pizzaflavour"> <h6>Flavour</h6></label>
+                  <select class="form-control" id="pizzasize">
+                    <option value="choose"></option>
+                    <option label=""></option>
+                    <option label=""></option>
+                    <option label=""></option>
+                  </select>
+                </div>
+          </div>
+          <div class="col-md-2">
+              <div class="form-group">
+                  <label for="pizzasize"><h6>Size</h6></label>
+                  <select class="form-control" id="pizzasize">
+                    <option value="choose"></option>
+                    <option label="Large -Ksh 2000" value="2000"></option>
+                    <option label="Medium -Ksh 1500" value="1500"></option>
+                    <option label="Large -Ksh 1000" value="1000"></option>
+                  </select>
+                </div>
+          </div>
+          <div class="col-md-2">
+              <div class="form-group">
+                  <label for="pizzaTopping"> <h6>Topping</h6></label>
+                  <select class="form-control" id="topping">
+                    <option value="choose"></option>
+                    <option label="Bacon" value="120"></option>
+                    <option label="Mushroom" value="120"></option>
+                    <option label="Sausages" value="100"></option>
+                    <option label="Green Pepper" value="100"></option>
+                    <option label="Pepperoni" value="200"></option>
+                    <option label="White Olives" value="80"></option>
+                  </select>
+      
+                </div>
+          </div>
+          <div class="col-md-2">
+              <div class="form-group">
+                  <label for="pizzaCrust"><h6>Crust</h6></label>
+                  <select class="form-control" id="topping">
+                    <option value="choose"></option>
+                    <option label="Thin Crust" value="700"></option>
+                    <option label="Thick Crust" value="650"></option>
+                    <option label="Deep Crust" value="600"></option>
+                    <option label="Cheese" value="500"></option>
+                    <option label="Stuffed Crust" value="400"></option>
+                  </select>
+      
+                </div>
+          </div>
+          <div class="col-md-2">
+              <div class="form-group">
+                  <label for="quantity"><h6>Quantity</h6></label>
+                  <input class="form-control" type="number" name="pizza" id="quantity" placeholder="How many pizza" max="" min="1">
+                </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+              <div class="form-group">
+                  <div class="form">
+                    <input type="button" value="Checkout" class="btn btn-primary">
+                  </div>
+                </div>
+          </div>
+            
+        </div>
+        
+  </div>
+
+</div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>
