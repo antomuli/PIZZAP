@@ -1,14 +1,15 @@
 .cover{
-
 background-color: rgba(0, 0, 0, 0.637);
 width: 100%;
 height: calc(100vh - 100px);
-
 }
 
-p,h1{
-  margin-top: 10%;
+p{
   text-align: center;
   color: bisque;
-  font-size: 35px;
+  font-size: 28px;
+  }
+h3{
+  padding-top: 5%;
+  padding-bottom: 5.5%;
 }
