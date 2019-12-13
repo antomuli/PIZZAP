@@ -1,0 +1,14 @@
+.cover{
+
+background-color: rgba(0, 0, 0, 0.637);
+width: 100%;
+height: calc(100vh - 100px);
+
+}
+
+p,h1{
+  margin-top: 10%;
+  text-align: center;
+  color: bisque;
+  font-size: 35px;
+}
