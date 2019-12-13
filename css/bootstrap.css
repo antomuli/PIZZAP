@@ -59,6 +59,9 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
+  background-image: url("../images/Home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: left;
   background-color: #fff;
 }
@@ -76,6 +79,7 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  color: white;
 }
 
 p {
@@ -364,6 +368,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+  color: white;
 }
 
 h1, .h1 {
@@ -388,6 +393,7 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 1rem;
+  color: white;
 }
 
 .lead {
@@ -555,25 +561,25 @@ pre code {
 
 @media (min-width: 576px) {
   .container {
-    max-width: 540px;
+    max-width: 100%;
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: 100%;
   }
 }
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 100%;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 100%;
   }
 }
 
@@ -589,6 +595,7 @@ pre code {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
+  text-align: center;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
@@ -4063,6 +4070,8 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  font-size: 40px;
+
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -5084,15 +5093,15 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
   background-color: #e9ecef;
-  border-radius: 0.3rem;
-}
+  border-radius: 0rem;
+  }
 
 @media (min-width: 576px) {
   .jumbotron {
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
   }
 }
 
@@ -6568,7 +6577,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #f8f9fa04 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
