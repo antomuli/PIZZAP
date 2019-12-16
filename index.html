@@ -33,103 +33,107 @@
 
 <body>
   <div class="container">
-    <div class="cover">
-      <div class="row">
-        <div class="col-md-12">
-          <h3>I have never met a Pizza Like you before.</h3>
-          <p><span class="w">W</span><span class="e">E</span><span class="l">L</span><span class="c">C</span><span
-              class="o">O</span><span class="m">M</span><span class="e!">E!</span><br>with a yearning Stomach;<br>happy heart</p>
-        </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <label for="pizzaflavour">
-              <h6>Flavour</h6>
-            </label>
-            <select class="form-control" id="pizzasize">
-              <option value="choose">Choose Flavour</option>
-              <option label="Proscuitto"></option>
-              <option label="Cantaloupe"></option>
-              <option label="Hummus"></option>
-              <option label="Butternut squash"></option>
-            </select>
+    <form action="" id="checkout-form">
+      <div class="cover">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>I have never met a Pizza Like you before.</h3>
+            <p><span class="w">W</span><span class="e">E</span><span class="l">L</span><span class="c">C</span><span
+                class="o">O</span><span class="m">M</span><span class="e!">E!</span><br>with a yearning
+              Stomach;<br>happy heart</p>
           </div>
-        </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <label for="pizzasize">
-              <h6>Size</h6>
-            </label>
-            <select class="form-control" id="pizzasize">
-              <option value="choose">Choose Pizza Size</option>
-              <option label="Large -Ksh 2000" value="2000"></option>
-              <option label="Medium -Ksh 1500" value="1500"></option>
-              <option label="Large -Ksh 1000" value="1000"></option>
-            </select>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="pizzaflavour">
+                <h6>Flavour</h6>
+              </label>
+              <select class="form-control" id="pizzaflavour">
+                <option value="0">Choose Flavour</option>
+                <option label="Proscuitto" value="599"></option>
+                <option label="Cantaloupe" value="899"></option>
+                <option label="Hummus" value="999"></option>
+                <option label="Butternut squash" value="1299"></option>
+              </select>
+            </div>
           </div>
-        </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <label for="pizzaTopping">
-              <h6>Topping</h6>
-            </label>
-            <select class="form-control" id="topping">
-              <option value="choose">Choose Topping</option>
-              <option label="Bacon" value="120"></option>
-              <option label="Mushroom" value="120"></option>
-              <option label="Sausages" value="100"></option>
-              <option label="Green Pepper" value="100"></option>
-              <option label="Pepperoni" value="200"></option>
-              <option label="White Olives" value="80"></option>
-            </select>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="pizzasize">
+                <h6>Size</h6>
+              </label>
+              <select class="form-control" id="pizzasize">
+                <option value="0">Choose Pizza Size</option>
+                <option label="Large -Ksh 2000" value="2000"></option>
+                <option label="Medium -Ksh 1500" value="1500"></option>
+                <option label="Large -Ksh 1000" value="1000"></option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="pizzaTopping">
+                <h6>Topping</h6>
+              </label>
+              <select class="form-control" id="toppings">
+                <option value="0">Choose Topping</option>
+                <option label="Bacon" value="120"></option>
+                <option label="Mushroom" value="120"></option>
+                <option label="Sausages" value="100"></option>
+                <option label="Green Pepper" value="100"></option>
+                <option label="Pepperoni" value="200"></option>
+                <option label="White Olives" value="80"></option>
+              </select>
 
+            </div>
           </div>
-        </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <label for="pizzaCrust">
-              <h6>Crust</h6>
-            </label>
-            <select class="form-control" id="crust">
-              <option value="choose">Choose Crust</option>
-              <option label="Thin Crust" value="700"></option>
-              <option label="Thick Crust" value="650"></option>
-              <option label="Deep Crust" value="600"></option>
-              <option label="Cheese" value="500"></option>
-              <option label="Stuffed Crust" value="400"></option>
-            </select>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="pizzaCrust">
+                <h6>Crust</h6>
+              </label>
+              <select class="form-control" id="crust">
+                <option value="0">Choose Crust</option>
+                <option label="Thin Crust" value="700"></option>
+                <option label="Thick Crust" value="650"></option>
+                <option label="Deep Crust" value="600"></option>
+                <option label="Cheese" value="500"></option>
+                <option label="Stuffed Crust" value="400"></option>
+              </select>
 
+            </div>
           </div>
-        </div>
-        <div class="col-md-2">
-          <div class="form-group">
-            <label for="quantity">
-              <h6>Quantity</h6>
-            </label>
-            <input class="form-control" type="number" name="pizza" id="quantity" placeholder="How many pizza" max=""
-              min="1">
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="form-group">
-            <div class="form">
-              <input type="button" value="Checkout" class="btn btn-success">
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="quantity">
+                <h6>Quantity</h6>
+              </label>
+              <input class="form-control" type="number" name="pizza" id="quantity" placeholder="How many pizza" max=""
+                min="1">
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <div class="form">
+                <button type="submit" class="btn btn-success" id="checkout">Checkout</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
 
       </div>
-
-    </div>
-
-  </div>
+    </form>
 
   </div>
-  </div>
-  </div>
-  </div>
 
+  </div>
+  </div>
+  </div>
+  </div>
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
