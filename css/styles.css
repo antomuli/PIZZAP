@@ -34,3 +34,6 @@ h3{
 .e{
   color: red;
 }
+.nav-link:hover{
+  background-color: darkorange;
+}
