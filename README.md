@@ -62,6 +62,9 @@ This site was built using github pages:
 
 ##### CODEBEAT
 
+[![codebeat badge](https://codebeat.co/badges/043ca1f7-3274-4f04-8076-e8769352693e)](https://codebeat.co/projects/github-com-antomuli-pizzap-master)
+
+
 **The following include the list of technologies used:**
 1.html.5
 
