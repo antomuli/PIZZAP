@@ -1,8 +1,5 @@
-// business logic section
 $(document).ready(function () {
-  // form submission function
   $("#checkout-form").submit(function (event) {
-    // a constructor to define data needed in ordering pizzas
     function UserOrder(size, crust, toppings, quantity, flavour) {
       this.flavour = flavour;
       this.size = size;
@@ -11,7 +8,7 @@ $(document).ready(function () {
       this.quantity = quantity;
     }
 
-    // getting user data - price
+
     var pizzaFlavourPrice = function () {
       var pizzaFlavour = $("#pizzaflavour").val();
       return parseInt(pizzaFlavour);
@@ -37,7 +34,7 @@ $(document).ready(function () {
       return parseInt(pizzaQuantity);
     };
 
-    //initializing a new order
+
     var inputForUserOrder = new UserOrder(
       pizzaFlavourPrice(),
       pizzaSizePrice(),
@@ -46,7 +43,7 @@ $(document).ready(function () {
       pizzaQuantityPrice()
     );
 
-    //a variable to get the total price of the user's order
+
     var totalPrice =
       (inputForUserOrder.flavour +
         inputForUserOrder.size +
@@ -56,25 +53,25 @@ $(document).ready(function () {
 
 
 
-    //control user input
+
     if (totalPrice > 0) {
-      //total user order price
+
       alert("Your total order is amounting to = ksh " + totalPrice);
 
-      //prompt for delivery
+
       var delivery = confirm(
         "For an additional ksh. 200, we can deliver your order to your location instantly. Would you want that?"
       );
 
-      //delivery control flow
+
       if (delivery === true) {
-        //infinite loop to control correct location entry
+
         for (;;) {
           var location = prompt(
             "Please enter your location to facilitate easy delivery: "
           );
 
-          //checking validity of user input
+
           if (location !== "") {
             alert(
               "Your order will be delivered here: " +
@@ -90,7 +87,7 @@ $(document).ready(function () {
           }
         }
 
-        //final prompt
+
         alert(
           "In case you missed it... Your total order is = ksh" +
           totalPrice +
@@ -101,13 +98,13 @@ $(document).ready(function () {
           "Thank you for choosing us! Your order has been processed, pass by our restaurant to pick it."
         );
 
-        //final prompt
+
         alert(
           "In case you missed it... Your total order is = ksh " + totalPrice
         );
       }
 
-      //reset form
+
       $("#get-pizza-order").reset();
     } else {
       alert("Please fill in all the form inputs to make an order!");
