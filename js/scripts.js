@@ -1,8 +1,7 @@
-
 // business logic section
-$(document).ready(function() {
+$(document).ready(function () {
   // form submission function
-  $("#checkout-form").submit(function(event) {
+  $("#checkout-form").submit(function (event) {
     // a constructor to define data needed in ordering pizzas
     function UserOrder(size, crust, toppings, quantity, flavour) {
       this.flavour = flavour;
@@ -13,28 +12,28 @@ $(document).ready(function() {
     }
 
     // getting user data - price
-    var pizzaFlavourPrice = function getFlavour() {
-      var pizzaFlavour = document.getElementById("pizzaflavour").value;
+    var pizzaFlavourPrice = function () {
+      var pizzaFlavour = $("#pizzaflavour").val();
       return parseInt(pizzaFlavour);
     };
 
-    var pizzaSizePrice = function getSize() {
-      var pizzaSize = document.getElementById("pizzasize").value;
+    var pizzaSizePrice = function () {
+      var pizzaSize = $("#pizzasize").val();
       return parseInt(pizzaSize);
     };
 
-    var pizzaToppingsPrice = function getToppings() {
-      var pizzaToppings = document.getElementById("toppings").value;
+    var pizzaToppingsPrice = function () {
+      var pizzaToppings = $("#toppings").val();
       return parseInt(pizzaToppings);
     };
 
-    var pizzaCrustPrice = function getCrust() {
-      var pizzaCrust = document.getElementById("crust").value;
+    var pizzaCrustPrice = function () {
+      var pizzaCrust = $("#crust").val();
       return parseInt(pizzaCrust);
     };
 
-    var pizzaQuantityPrice = function getQuantity() {
-      var pizzaQuantity = document.getElementById("quantity").value;
+    var pizzaQuantityPrice = function () {
+      var pizzaQuantity = $("#quantity").val();
       return parseInt(pizzaQuantity);
     };
 
@@ -55,14 +54,16 @@ $(document).ready(function() {
         inputForUserOrder.crust) *
       inputForUserOrder.quantity;
 
+
+
     //control user input
     if (totalPrice > 0) {
       //total user order price
-      alert("Your total order is amounting to = ksh" + totalPrice);
+      alert("Your total order is amounting to = ksh " + totalPrice);
 
       //prompt for delivery
       var delivery = confirm(
-        "For an additional ksh200, we can deliver your order to your location instantly. Would you want that?"
+        "For an additional ksh. 200, we can deliver your order to your location instantly. Would you want that?"
       );
 
       //delivery control flow
@@ -77,8 +78,8 @@ $(document).ready(function() {
           if (location !== "") {
             alert(
               "Your order will be delivered here: " +
-                location +
-                ". Thank you for choosing us! Order again soon and win!"
+              location +
+              ". Thank you for choosing us! Order again soon and win!"
             );
 
             break;
@@ -92,8 +93,8 @@ $(document).ready(function() {
         //final prompt
         alert(
           "In case you missed it... Your total order is = ksh" +
-            totalPrice +
-            " + ksh200 delivery fee."
+          totalPrice +
+          " + ksh. 200 delivery fee."
         );
       } else {
         alert(
@@ -102,7 +103,7 @@ $(document).ready(function() {
 
         //final prompt
         alert(
-          "In case you missed it... Your total order is = ksh" + totalPrice
+          "In case you missed it... Your total order is = ksh " + totalPrice
         );
       }
 
