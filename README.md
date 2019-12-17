@@ -73,6 +73,9 @@ https://antomuli.github.io/AKAN-Naming-System/
 
 5.JQuery.
 
+
+![technologies](images/download.jpg)
+
 ***Known Bugs***
 
 1.The page is 15% unresponsive.
