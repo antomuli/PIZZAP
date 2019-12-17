@@ -55,10 +55,10 @@ Every pizza is a personal pizza...
 The **Noblest Pleasure** is the joy of Pizza!
 
 
-##### Live Link to AKAN-Naming System.
+##### Live Link to PIZZAP.
 The following is the live link to the project "PIZZAP":
 This site was built using github pages:
-https://antomuli.github.io/AKAN-Naming-System/
+ https://antomuli.github.io/PIZZAP/
 
 ##### CODEBEAT
 
