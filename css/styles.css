@@ -1,47 +1,53 @@
-*{
+* {
   text-align: center;
   font-size: 29px;
   font-family: 'Lakki Reddy', cursive;
 }
-.cover{
-background-color: rgba(0, 0, 0, 0.637);
-width: 100%;
-height: calc(100vh - 100px);
+
+.cover {
+  background-color: rgba(0, 0, 0, 0.637);
+  width: 100%;
+  height: calc(100vh - 100px);
 }
 
-p{
+p {
   text-align: center;
   color: bisque;
-  }
-h3{
+}
+
+h3 {
   padding-top: 5%;
   padding-bottom: 5.5%;
 }
-.w{
+
+.w {
   color: aliceblue;
 }
-.e{
+
+.e {
   color: greenyellow;
 }
-.l{
+
+.l {
   color: aqua;
 }
-.c{
+
+.c {
   color: brown;
 }
-.o{
+
+.o {
   color: crimson;
 }
-.m{
+
+.m {
   color: green;
 }
-.e{
+
+.e {
   color: red;
 }
-.nav-link:hover{
+
+.nav-link:hover {
   background-color: darkorange;
 }
-
-
-
-
