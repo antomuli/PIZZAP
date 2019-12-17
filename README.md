@@ -2,35 +2,57 @@
 PIZZAP
 
 ## Author's Details.
-Name: Anthony Muli
+Name: *Anthony Muli.*
 
-Email: mulianthony561@gmail.com
+Email: *mulianthony561@gmail.com*
 
-FB: Anto De Sparta Neyo.
+FB: *Anto De Sparta Neyo.*
 
-Tel:+254796577998.
+Tel:*+254796577998.*
 
 
 ### Project Description.
-
+The difference between **pizza** and your **own opinion** is that I actually asked for pizza on PIZZAP!.
 
 #### Project-Setup Instructions.
 1.Open your *github* account.
 
 2.Search for the github username:**antomuli**.
 
-3.In antomuli's repositories,git clone the PIZZAP repository into your you *-local repository-* which is your machine(computer) /git clone the following link:***""***
+3.In antomuli's repositories,git clone the PIZZAP repository into your you *-local repository-* which is your machine(computer) /git clone the following link:***https://github.com/antomuli/PIZZAP.git***
 
 ***BDD***
 ## project screenshot
 
-![nnvjhfsvncvsjh](Images/BDD.jpg)
+![Landing](images/Order.jpg)
+
+
 
 Curious! Curiosity has its own reason for exciting..Find out what's yours!
 
-![chinchillah](Images/Readme.jpg)
 
 
+![Destination](images/Location.jpg)
+
+
+
+The ultimate guide to ***PIZZAP*** best pizza places.
+
+
+
+![Yummies](images/Hot_Menus.jpg)
+
+
+
+Every pizza is a personal pizza...
+                                  If you try hard and believe in yourself.
+
+
+![Munch](images/MakeOrder.jpg)
+
+
+
+The **Noblest Pleasure** is the joy of Pizza!
 
 
 ##### Live Link to AKAN-Naming System.
